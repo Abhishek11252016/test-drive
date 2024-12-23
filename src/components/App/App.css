@@ -1,0 +1,21 @@
+body{
+    background-color: #f6f6f9;
+}
+.css-1nmdiq5-menu{
+    z-index: 3!important;
+}
+.form-control{
+    height: 38px!important;
+}
+
+.FieldLabel{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(93, 93, 93);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+.calendar-container {
+    max-width: 100%;
+}

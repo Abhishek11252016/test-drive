@@ -1,0 +1,57 @@
+
+.fc-license-message{
+    display: none;
+}
+
+
+/* Calendar.css */
+.calendar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .fc-toolbar {
+    margin-bottom: 10px;
+  }
+  .fc-event-title {
+    color: black;
+  }
+  .fc-view-resourceTimelineDay .fc-resource-area {
+    width: 20%; /* Set a fixed width for the resource area */
+  }
+  
+  .fc-event {
+    background-color: #26c6da; /* Event color */
+    color: white;
+   
+  }
+  
+  .fc-event:hover {
+    background-color: #00bcd4;
+  }
+  
+  .fc-scrollgrid-liquid {
+    transition: max-height 0.3s ease-in-out; /* Smooth transition for height change */
+  }
+  
+  @media (max-width: 768px) {
+    .fc-view-resourceTimelineDay .fc-resource-area {
+      width: 100px; /* Make resources narrower on smaller screens */
+    }
+  
+    .fc-event {
+      font-size: 12px; /* Smaller text for events on mobile */
+      padding: 8px; /* Less padding on mobile */
+    }
+  
+    .calendar-container {
+      padding: 10px; /* Less padding on smaller screens */
+    }
+  
+    .fc-toolbar {
+      font-size: 14px; /* Smaller toolbar text on mobile */
+    }
+  }
+  

@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #ffffff;
+}
+@media (max-width: 768px) {
+    .responsive-chart {
+      height: 300px; /* Adjust height for mobile screens */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .responsive-chart {
+      height: 400px; /* Default height for larger screens */
+    }
+  }
